@@ -1,0 +1,136 @@
+h1 {
+    font-size: xxx-large;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #d70606;
+}
+h2 {
+    font-size: xx-large;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #493f;
+}
+
+h3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #d706;
+}
+
+.input100 {
+    font-size: 15px;
+    line-height: 1.2;
+    color: #333333;
+
+    display: block;
+    width: 100%;
+    background: #fff;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px 0 53px;
+}
+.button_log-in {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+
+    display: grid;
+    width: 50%;
+    background: #7c75e7;
+    height: 25px;
+    border-radius: 10px;
+    vertical-align: center;
+    text-align: center;
+}
+.button_register_loginSite {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+
+    display: flex;
+    width: 100%;
+    background: #cf7bff;
+    height: 25px;
+    border-radius: 10px;
+    vertical-align: center;
+    text-align: center;
+}
+.button_register_registerSite {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+
+    display: grid;
+    width: 135%;
+    background: #cf7bff;
+    height: 25px;
+    border-radius: 10px;
+    vertical-align: center;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar .active {
+    font-weight: bold;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background: url("./images/background.png");
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    justify-self: center;
+}
+
+li a {
+    display: grid;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+p {
+    font-size: xxx-large;
+    font-family: "Arial Black";
+}

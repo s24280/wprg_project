@@ -1,0 +1,1 @@
+It's a project for WPRG lectures at PJAIT. In order for this to work, one must set proper credentials to log into a database. I had a localhost MySQL workbench DB with password set as 'ZAQ!2wsx', username as 'root', and DB name as 'phpproject'.
